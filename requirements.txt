@@ -1,0 +1,22 @@
+faster-whisper==1.2.1
+sounddevice==0.5.6
+# WASAPI loopback 旁路监听(不影响外放)
+soundcard==0.4.6
+numpy==1.26.4
+torch==2.14.0
+# NLLB 需要 seq2seq 翻译管道, 但 transformers 5.x 已移除, 故锁定 4.x
+transformers==4.46.3
+tokenizers==0.20.3
+huggingface_hub==0.25.2
+accelerate==0.34.2
+safetensors==0.8.0
+sentencepiece==0.2.2
+silero-vad==6.2.1
+onnxruntime==1.23.2
+ctranslate2==4.8.2
+# NVIDIA CUDA 运行时库: 让 faster-whisper(ctranslate2) 用 GPU 推理
+nvidia-cublas-cu12==12.0.1.189
+nvidia-cudnn-cu12==8.9.4.25
+requests==2.32.3
+urllib3==2.2.3
+charset_normalizer==3.3.2

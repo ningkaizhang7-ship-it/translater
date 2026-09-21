@@ -1,0 +1,18 @@
+{
+  "font": 23,
+  "alpha": 1.0,
+  "lines": 2,
+  "topmost": true,
+  "borderless": true,
+  "show": true,
+  "bg_transparent": true,
+  "autoheight": true,
+  "pos": "custom",
+  "w": 1250,
+  "h": 212,
+  "x": 3047,
+  "y": 1248,
+  "dpi_aware": true,
+  "backend": "llm",
+  "lang": "en"
+}
