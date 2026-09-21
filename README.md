@@ -142,8 +142,7 @@ Whisper 在**句尾/静音处**易凭空补出 "Please like and subscribe!"、"T
 
 ---
 
-## 环境说明（本机已装好）
-
+## 环境说明
 - 依赖见 `requirements.txt`；`.venv` 已装好并**端到端验证通过**。
 - **语音识别（faster-whisper）** 走 **GPU**（ctranslate2 + `nvidia-cublas-cu12`/`nvidia-cudnn-cu12`，脚本自动加 DLL 搜索路径）。
 - **本地翻译（NLLB）** 走 **CPU**；`transformers` 锁定 **4.46.3**（5.x 移除了 seq2seq 翻译管道）。
